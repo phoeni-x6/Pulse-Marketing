@@ -1,5 +1,6 @@
 <template>
   <section
+    id="problem"
     v-reveal
     class="bg-softGradient text-brand-dark"
   >
@@ -8,10 +9,12 @@
       <!-- Heading -->
       <div class="text-center mb-20 animate-fade-up">
         <h2 class="text-3xl md:text-4xl font-extrabold mb-4 text-brand-blue">
-          Most Local Businesses Struggle Because
+          Why Many Local Businesses Struggle With Online Marketing
         </h2>
+
         <p class="text-brand-dark/70 text-lg">
-          Online presence alone doesn’t bring customers.
+          Having social media pages or a website alone doesn’t always bring
+          real customers or WhatsApp inquiries.
         </p>
       </div>
 
@@ -22,37 +25,49 @@
         <div class="absolute left-4 top-0 h-full w-1 bg-brand-blue/20 rounded-full"></div>
 
         <!-- Pain Item -->
-        <div class="relative pl-16 mb-10 animate-fade-up animate-delay-1">
+        <article class="relative pl-16 mb-10 animate-fade-up animate-delay-1">
           <div class="dot">❌</div>
-          <div class="pain-card">
-            They have social media pages<br />
-            <span class="text-brand-dark/60">but no real inquiries</span>
-          </div>
-        </div>
 
-        <div class="relative pl-16 mb-10 animate-fade-up animate-delay-2">
-          <div class="dot">❌</div>
           <div class="pain-card">
-            Their ads reach<br />
-            <span class="text-brand-dark/60">the wrong people</span>
+            Many businesses have Facebook and Instagram pages<br />
+            <span class="text-brand-dark/60">
+              but receive little to no real customer inquiries
+            </span>
           </div>
-        </div>
+        </article>
 
-        <div class="relative pl-16 mb-10 animate-fade-up animate-delay-3">
+        <article class="relative pl-16 mb-10 animate-fade-up animate-delay-2">
           <div class="dot">❌</div>
-          <div class="pain-card">
-            They don’t appear on Google Maps<br />
-            <span class="text-brand-dark/60">when customers search</span>
-          </div>
-        </div>
 
-        <div class="relative pl-16 animate-fade-up animate-delay-1">
-          <div class="dot">❌</div>
           <div class="pain-card">
-            They don’t have time<br />
-            <span class="text-brand-dark/60">to manage online marketing</span>
+            Their ads often reach<br />
+            <span class="text-brand-dark/60">
+              the wrong audience instead of nearby customers
+            </span>
           </div>
-        </div>
+        </article>
+
+        <article class="relative pl-16 mb-10 animate-fade-up animate-delay-3">
+          <div class="dot">❌</div>
+
+          <div class="pain-card">
+            Their business doesn’t appear on Google Maps<br />
+            <span class="text-brand-dark/60">
+              when customers search for services nearby
+            </span>
+          </div>
+        </article>
+
+        <article class="relative pl-16 animate-fade-up animate-delay-1">
+          <div class="dot">❌</div>
+
+          <div class="pain-card">
+            Business owners don’t have time<br />
+            <span class="text-brand-dark/60">
+              to manage Facebook ads, Instagram, and online marketing
+            </span>
+          </div>
+        </article>
 
       </div>
 
@@ -61,7 +76,7 @@
         <p class="text-2xl md:text-3xl font-extrabold">
           Likes don’t pay the bills.
           <span class="text-brand-lavender block mt-2">
-            Customers do.
+            Real customers do.
           </span>
         </p>
       </div>

@@ -1,41 +1,47 @@
 <template>
-  <section v-reveal class="bg-white text-brand-dark">
+  <section
+    id="social-proof"
+    v-reveal
+    class="bg-white text-brand-dark"
+  >
     <div class="max-w-6xl mx-auto px-6 py-20 md:py-28">
 
       <!-- Heading -->
       <div class="text-center mb-16 animate-fade-up">
         <h2 class="text-3xl md:text-4xl font-extrabold mb-4 text-brand-blue">
-          Local Businesses Are Moving Online
+          Trusted Digital Marketing Support for Local Businesses
         </h2>
+
         <p class="text-brand-dark/70 text-lg">
-          You don’t need to be a big brand to get real customers.
+          Small and medium businesses can generate real customers online
+          using targeted Facebook Ads, Instagram marketing, and Google Maps visibility.
         </p>
       </div>
 
       <!-- Trust Cards -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
 
-        <div class="proof-card animate-fade-up animate-delay-1">
-          <div class="icon">🤝</div>
-          <p>Trusted by local businesses</p>
-        </div>
+        <article class="proof-card animate-fade-up animate-delay-1">
+          <div class="icon" aria-hidden="true">🤝</div>
+          <p>Trusted by growing local businesses</p>
+        </article>
 
-        <div class="proof-card animate-fade-up animate-delay-2">
-          <div class="icon">🇱🇰</div>
-          <p>Designed for Sri Lankan SMEs</p>
-        </div>
+        <article class="proof-card animate-fade-up animate-delay-2">
+          <div class="icon" aria-hidden="true">🇱🇰</div>
+          <p>Designed specifically for Sri Lankan SMEs</p>
+        </article>
 
-        <div class="proof-card animate-fade-up animate-delay-3">
-          <div class="icon">📈</div>
-          <p>Local support & transparent reporting</p>
-        </div>
+        <article class="proof-card animate-fade-up animate-delay-3">
+          <div class="icon" aria-hidden="true">📈</div>
+          <p>Transparent reporting and local marketing support</p>
+        </article>
 
       </div>
 
       <!-- Placeholder Note -->
       <div class="text-center mt-16 animate-fade-up animate-delay-2">
         <p class="text-sm text-brand-dark/50">
-          *Client results and testimonials will be added soon.
+          Client results and testimonials will be added soon.
         </p>
       </div>
 

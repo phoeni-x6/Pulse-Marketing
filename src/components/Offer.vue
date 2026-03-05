@@ -1,5 +1,9 @@
 <template>
-  <section v-reveal class="bg-heroGradient text-white">
+  <section
+    id="offer"
+    v-reveal
+    class="bg-heroGradient text-white"
+  >
     <div class="max-w-6xl mx-auto px-6 py-20 md:py-28">
 
       <!-- Offer Box -->
@@ -9,32 +13,34 @@
 
         <!-- Heading -->
         <h2 class="text-3xl md:text-4xl font-extrabold mb-6 text-brand-blue">
-          Try Our System for
+          Try Our Local Business Marketing System for
           <span class="text-brand-lavender">7 Days — Risk Free</span>
         </h2>
 
         <!-- Description -->
         <p class="text-lg text-brand-dark/70 mb-10 max-w-2xl mx-auto">
-          We run a 7-day trial campaign to prove results before you commit to anything.
+          Pulse Marketing runs a 7-day trial campaign designed to generate
+          real WhatsApp inquiries for your business using Facebook Ads,
+          Instagram marketing, and Google Maps promotion.
         </p>
 
         <!-- Benefits -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left mb-12">
 
           <div class="benefit-item animate-fade-up animate-delay-1">
-            ✔ Get real WhatsApp inquiries
+            ✔ Get real WhatsApp inquiries from nearby customers
           </div>
 
           <div class="benefit-item animate-fade-up animate-delay-2">
-            ✔ No long-term commitment
+            ✔ No long-term commitment required
           </div>
 
           <div class="benefit-item animate-fade-up animate-delay-3">
-            ✔ Continue only if you’re satisfied
+            ✔ Continue only if you’re satisfied with results
           </div>
 
           <div class="benefit-item animate-fade-up animate-delay-1">
-            ✔ Simple reporting, no confusion
+            ✔ Clear and simple performance reporting
           </div>
 
         </div>
@@ -52,6 +58,7 @@
         <!-- CTA -->
         <a
           href="https://wa.me/94XXXXXXXXX?text=Hi%20I%20want%20the%207-day%20trial"
+          aria-label="Start your free 7 day marketing trial with Pulse Marketing on WhatsApp"
           class="inline-block w-full sm:w-auto 
                  bg-brand-blue hover:bg-brand-lavender 
                  text-white font-bold text-lg 

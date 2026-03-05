@@ -1,15 +1,21 @@
 <template>
-  <section v-reveal class="bg-heroGradient text-white">
+  <section
+    id="contact"
+    v-reveal
+    class="bg-heroGradient text-white"
+  >
     <div class="max-w-6xl mx-auto px-6 py-20 md:py-28 text-center">
 
       <!-- Heading -->
       <h2 class="text-3xl md:text-4xl font-extrabold mb-6 animate-fade-up">
-        Ready to Get More Customers?
+        Ready to Get More Customers for Your Local Business?
       </h2>
 
       <!-- Subheading -->
       <p class="text-lg md:text-xl text-white/90 mb-12 animate-fade-up animate-delay-1">
-        Let’s check if your business qualifies for a free 7-day trial.
+        Contact Pulse Marketing today and see how our system can generate
+        real WhatsApp inquiries using Facebook Ads, Instagram marketing,
+        and Google Maps visibility.
       </p>
 
       <!-- CTA Buttons -->
@@ -20,6 +26,7 @@
         <!-- WhatsApp CTA -->
         <a
           href="https://wa.me/94XXXXXXXXX"
+          aria-label="Chat with Pulse Marketing on WhatsApp"
           class="w-full sm:w-auto 
                  bg-[#25D366] hover:bg-brand-lavender 
                  text-black font-bold text-lg 
@@ -33,6 +40,7 @@
         <!-- Free Audit Placeholder -->
         <button
           type="button"
+          aria-label="Free marketing audit coming soon"
           class="w-full sm:w-auto 
                  border-2 border-white 
                  font-bold text-lg 
